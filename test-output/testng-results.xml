@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-02T13:00:57 IST" name="Default suite" finished-at="2023-10-02T13:01:22 IST" duration-ms="25039">
+    <groups>
+    </groups>
+    <test started-at="2023-10-02T13:00:57 IST" name="Default test" finished-at="2023-10-02T13:01:22 IST" duration-ms="25039">
+      <class name="rahulShettyAcademy.pageObjects.StandAloneTestRef">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulShettyAcademy.pageObjects.StandAloneTestRef@6404f418]" started-at="2023-10-02T13:00:57 IST" name="launchApplication" finished-at="2023-10-02T13:01:00 IST" duration-ms="2442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:1, instance:rahulShettyAcademy.pageObjects.StandAloneTestRef@6404f418]" started-at="2023-10-02T13:01:00 IST" name="submitOrder" data-provider="getData" finished-at="2023-10-02T13:01:11 IST" duration-ms="10770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=ZARA COAT 3, pwd=Asdf@1234, email=manish.maldhure@rediffmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulShettyAcademy.pageObjects.StandAloneTestRef@6404f418]" started-at="2023-10-02T13:01:11 IST" name="launchApplication" finished-at="2023-10-02T13:01:12 IST" duration-ms="1674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:1, instance:rahulShettyAcademy.pageObjects.StandAloneTestRef@6404f418]" started-at="2023-10-02T13:01:12 IST" name="submitOrder" data-provider="getData" finished-at="2023-10-02T13:01:22 IST" duration-ms="10096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=ADIDAS ORIGINAL, pwd=Asdf@1234, email=manish.maldhure2021@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+      </class> <!-- rahulShettyAcademy.pageObjects.StandAloneTestRef -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
