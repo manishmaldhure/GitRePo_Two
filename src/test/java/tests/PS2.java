@@ -18,5 +18,14 @@ public class PS2 extends PS3 {
 		a=a-1;
 		System.out.println(a);
 	}
-
+	public void multiplication()
+	{
+		a=a-1;
+		System.out.println(a);
+	}
+	public void division()
+	{
+		a=a-1;
+		System.out.println(a);
+	}
 }
